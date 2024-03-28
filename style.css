@@ -439,3 +439,7 @@ section {
   transform: translateY(0);
   opacity: 1;
 }
+.ps{
+  font-weight:Bold;
+  color:#f64c72;
+}
