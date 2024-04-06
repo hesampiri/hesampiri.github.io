@@ -202,6 +202,7 @@ section {
 
 .about-container {
   /* background-color: #1b1c5f; */
+  /* border: 1px solid red; */
 }
 .about-container > h2 {
   color: #f64c72;
@@ -213,22 +214,29 @@ section {
   color: white;
   line-height: 30px;
   display: flex;
-  /* background-color: #2f2fa2; */
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  /* flex-wrap: wrap-reverse; */
 }
 
 .about-info > p {
-  /* background-color: green; */
   width: 50%;
 }
 
 .profile {
-  background-color: azure;
+  position: relative;
   width: 400px;
-  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-pic {
+  z-index: 6;
+}
+.about-color-pic {
+  position: absolute;
+  left: 10px;
+  z-index: 5;
 }
 
 #skills {
@@ -241,7 +249,6 @@ section {
   font-size: 2rem;
   padding-bottom: 100px;
   letter-spacing: 3px;
-  /* font-weight: 400; */
 }
 
 @media (max-width: 730px) {
@@ -253,10 +260,8 @@ section {
 
 .skill-container {
   width: 100%;
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
 }
 
 .skill-icons {
@@ -264,7 +269,6 @@ section {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  /* border: 1px solid white; */
 }
 
 .skill-icons img {
@@ -286,7 +290,6 @@ section {
   display: grid;
   width: 100%;
   gap: 1rem;
-  /* background-color: aliceblue; */
 }
 
 #projects {
@@ -305,9 +308,7 @@ section {
   padding: 20px;
   border-radius: 10px;
   display: grid;
-  /* grid-template-areas: a b; */
   grid-template-columns: 2fr 1fr;
-  /* grid-auto-flow: column; */
   grid-template-rows: auto;
   gap: 1rem;
   color: white;
@@ -335,7 +336,6 @@ section {
 .card button {
   all: unset;
   background-color: #f64c72;
-  /* border: 2px solid #f64c72; */
   padding: 5px 10px;
   border-radius: 5px;
   color: white;
@@ -354,8 +354,6 @@ section {
   background-size: cover;
   background-position: center;
   border-radius: 10px;
-  /* background-color: #f64c72; */
-  /* border: 1px solid #2f2fa2; */
 }
 
 .game {
@@ -379,7 +377,6 @@ section {
 }
 
 #contact .media {
-  /* background-color: #2f2fa2; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -403,7 +400,6 @@ section {
   text-transform: capitalize;
   word-spacing: 5px;
   align-items: end;
-  /* background-color: aquamarine; */
 }
 
 .back-to-top {
@@ -424,7 +420,6 @@ section {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
-  /* background-color: #2f2fa2; */
   padding: 15px;
 }
 
@@ -439,6 +434,7 @@ section {
   transform: translateY(0);
   opacity: 1;
 }
+
 .ps {
   font-weight: bold;
   color: #f64c72;

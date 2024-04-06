@@ -10,7 +10,7 @@
     display: none;
   }
 
-  .side-but{
+  .side-but {
     display: block;
   }
 
@@ -37,6 +37,15 @@
     width: 300px;
     height: 300px;
     margin: 30px 0px;
+  }
+
+  .about-pic {
+    width: 200px;
+    height: 300px;
+  }
+  .about-color-pic {
+    width: 200px;
+    height: 300px;
   }
 
   .skill-icons > div {
